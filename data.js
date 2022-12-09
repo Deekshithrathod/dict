@@ -20,8 +20,8 @@ const data = [
           {
             definition: "used as a greeting or to begin a phone conversation.",
             example: "hello there, Katie!",
-            synonyms: [],
-            antonyms: [],
+            synonyms: ["ad", "dsafj", "fdasf"],
+            antonyms: ["dafa", "adsflk", "dafsadf"],
           },
         ],
       },
@@ -31,8 +31,8 @@ const data = [
           {
             definition: "an utterance of 'hello'; a greeting.",
             example: "she was getting polite nods and hellos from people",
-            synonyms: [],
-            antonyms: [],
+            synonyms: ["ad", "dsafj", "fdasf"],
+            antonyms: ["dafa", "adsflk", "dafsadf"],
           },
         ],
       },
@@ -42,8 +42,8 @@ const data = [
           {
             definition: "say or shout 'hello'.",
             example: "I pressed the phone button and helloed",
-            synonyms: [],
-            antonyms: [],
+            synonyms: ["ad", "dsafj", "fdasf"],
+            antonyms: ["dafa", "adsflk", "dafsadf"],
           },
         ],
       },
