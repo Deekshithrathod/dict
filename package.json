@@ -1,5 +1,5 @@
 {
-  "name": "dict",
+  "name": "word-hunt",
   "version": "1.0.0",
   "description": "helps you look up a word from command line",
   "main": "index.js",
