@@ -10,6 +10,11 @@
   "keywords": [
     "dictionary"
   ],
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/Deekshithrathod/dict"
+  },
+  "bin":"./index.js",
   "author": "deekshithrathod",
   "license": "ISC",
   "dependencies": {
