@@ -14,7 +14,9 @@
     "type": "git",
     "url":"https://github.com/Deekshithrathod/dict"
   },
-  "bin":"./index.js",
+  "bin":{
+    "word-hunt":"./src/index.js"
+  },
   "author": "deekshithrathod",
   "license": "ISC",
   "dependencies": {
