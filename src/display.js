@@ -9,8 +9,8 @@ export default function display(data) {
   const level3 = (word) => chalk.hex("#7DE5ED").bold(word);
 
   data.map((word) => {
-    const [word, phonetic, origin] = word;
-    console.log(word + phonetic + origin);
+    // const [word, phonetic, origin] = word;
+    // console.log(word + phonetic + origin);
     console.log(`\n${level1("word")}: ${word.word}`);
 
     console.log(`${level1("phonetic")}: ${word.phonetic}`);
