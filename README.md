@@ -11,9 +11,11 @@ A CLI application that helps you find meaning on terminal itself
 
 
 ### How to Use
-Just use the command `word-hunt <word-to-search-for>`
 ![search-results](https://user-images.githubusercontent.com/68671324/207052970-98534136-0cbb-4bd9-8ca0-4b6542aa1fec.svg)
 
+Just use the command <code>word-hunt <word-to-search-for></code>
+
+<hr/>
 
 This project uses the [dictionary API](https://dictionaryapi.dev/), please show some ❤️ to this man for making such an amazing API available for us for free.
 
