@@ -9,18 +9,15 @@ export default function display(data) {
   const level3 = (word) => chalk.hex("#7DE5ED").bold(word);
 
   data.map((word) => {
-    // TODO: style the word
+    const [word, phonetic, origin] = word;
+    console.log(word + phonetic + origin);
     console.log(`\n${level1("word")}: ${word.word}`);
 
-    //phonetic
     console.log(`${level1("phonetic")}: ${word.phonetic}`);
 
-    //origin
     console.log(`${level1("origin")}: ${word.origin}`);
 
-    // meanings
     word.meanings.map((meaning) => {
-      // parts of speech
       console.log(
         twoSpaces + `${level2("Part of Speech")}: ${meaning.partOfSpeech}`
       );
