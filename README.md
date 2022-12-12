@@ -4,15 +4,15 @@ A CLI application that helps you find meaning on terminal itself
 <br/>
 
 ### How to Install (Locally)
-![local-install](https://user-images.githubusercontent.com/68671324/207050498-63fbcee7-9050-434a-934f-efc78a818012.svg)
+![local-install](https://user-images.githubusercontent.com/68671324/207052899-645b4856-05f7-4deb-9b18-2351674a2492.svg)
 
 ### How to Install (Globally)
-![global-install](https://user-images.githubusercontent.com/68671324/207050226-1fb3756d-ff79-4c24-bbca-b798a26f0b9a.svg)
+![global-install](https://user-images.githubusercontent.com/68671324/207052935-4f0da89b-127e-4abb-8bdf-c9e8bcb5e588.svg)
 
 
 ### How to Use
 Just use the command `word-hunt <word-to-search-for>`
-![search-result](https://user-images.githubusercontent.com/68671324/207050542-f7c1793b-fcbd-4f38-b404-a61e43f9a1eb.svg)
+![search-results](https://user-images.githubusercontent.com/68671324/207052970-98534136-0cbb-4bd9-8ca0-4b6542aa1fec.svg)
 
 
 This project uses the [dictionary API](https://dictionaryapi.dev/), please show some ❤️ to this man for making such an amazing API available for us for free.
