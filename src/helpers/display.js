@@ -9,23 +9,24 @@ export default function display(data) {
   const level3 = (word) => chalk.hex("#7DE5ED").bold(word);
 
   data.map((word) => {
-    // const [word, phonetic, origin] = word;
-    // console.log(word + phonetic + origin);
     console.log(`\n${level1("word")}: ${word.word}`);
-
     console.log(`${level1("phonetic")}: ${word.phonetic}`);
-
-    console.log(`${level1("origin")}: ${word.origin}`);
+    word.origin !== undefined &&
+      console.log(`${level1("origin")}: ${word.origin}`);
 
     word.meanings.map((meaning) => {
       console.log(
         twoSpaces + `${level2("Part of Speech")}: ${meaning.partOfSpeech}`
       );
-      meaning.definitions.map((definition) => {
+      meaning.definitions.map((definition, index) => {
         console.log(
-          fourSpaces + `${level3("definition")}: ${definition.definition}`
+          fourSpaces +
+            `${level3(`definition ${index + 1}`)}: ${definition.definition}`
         );
-        console.log(fourSpaces + `${level3("example")}: ${definition.example}`);
+        definition.example !== undefined &&
+          console.log(
+            fourSpaces + `${level3("example")}: ${definition.example}`
+          );
         definition.synonyms.length != 0 &&
           console.log(
             fourSpaces +
