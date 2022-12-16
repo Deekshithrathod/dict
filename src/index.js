@@ -19,7 +19,6 @@ if (word === undefined) {
 const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
 async function getData() {
-  console.log();
   const spinner = createSpinner(`Beep boop beep boop...\n`).start();
   fetch(url)
     .then((res) => {
