@@ -1,4 +1,4 @@
-const data = [
+const defaultData = [
   {
     word: "hello",
     phonetic: "həˈləʊ",
@@ -51,4 +51,4 @@ const data = [
   },
 ];
 
-export default data;
+export default defaultData;
