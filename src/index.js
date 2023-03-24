@@ -3,7 +3,8 @@
 import chalk from "chalk";
 import { createSpinner } from "nanospinner";
 
-import display from "./helpers/display.js";
+import display, { displayWithFlags } from "./helpers/display.js";
+import defaultData from "./data.js";
 import displayError from "./helpers/displayError.js";
 import isValidResponse from "./helpers/isValidResponse.js";
 
@@ -29,8 +30,18 @@ async function getData() {
       return res.json();
     })
     .then((data) => {
+      data = defaultData;
       spinner.success();
+      if (process.argv.length > 3) {
+        const onlySynonyms = process.argv.includes("-s");
+        const onlyAntonyms = process.argv.includes("-a");
+
+        displayWithFlags(data, onlySynonyms, onlyAntonyms);
+        return;
+      }
+
       display(data);
     });
 }
+
 await getData();
